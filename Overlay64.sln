@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{B85F6C92-E852-48C7-BF56-5BFF321A853D}") = "Overlay64", "Overlay64\Overlay64.vcxproj", "{0CAD228A-5DFB-4676-AC66-E9012CFF6EFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CAD228A-5DFB-4676-AC66-E9012CFF6EFB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0CAD228A-5DFB-4676-AC66-E9012CFF6EFB}.Debug|Win32.Build.0 = Debug|Win32
+		{0CAD228A-5DFB-4676-AC66-E9012CFF6EFB}.Debug|x64.ActiveCfg = Debug|x64
+		{0CAD228A-5DFB-4676-AC66-E9012CFF6EFB}.Debug|x64.Build.0 = Debug|x64
+		{0CAD228A-5DFB-4676-AC66-E9012CFF6EFB}.Release|Win32.ActiveCfg = Release|Win32
+		{0CAD228A-5DFB-4676-AC66-E9012CFF6EFB}.Release|Win32.Build.0 = Release|Win32
+		{0CAD228A-5DFB-4676-AC66-E9012CFF6EFB}.Release|x64.ActiveCfg = Release|x64
+		{0CAD228A-5DFB-4676-AC66-E9012CFF6EFB}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

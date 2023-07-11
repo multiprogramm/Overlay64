@@ -1,0 +1,40 @@
+﻿HKCR
+{
+	'%PROGID%' = s '%DESCRIPTION%'
+	{
+		CLSID = s '%CLSID%'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove '%CLSID%' = s '%DESCRIPTION%'
+		{
+			ProgID = s '%PROGID%'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+		}
+	}
+}
+HKLM
+{
+	NoRemove Software
+	{
+		NoRemove Microsoft
+		{
+			NoRemove Windows
+			{
+				NoRemove CurrentVersion
+				{
+					NoRemove Explorer
+					{
+						NoRemove ShellIconOverlayIdentifiers
+						{
+							'      %DESCRIPTION%' = s '%CLSID%'
+						}
+					}
+				}
+			}
+		}
+	}
+}
