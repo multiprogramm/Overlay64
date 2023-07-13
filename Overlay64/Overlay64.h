@@ -79,7 +79,7 @@ DECLARE_PROTECT_FINAL_CONSTRUCT()
 		if( cbCopied <= 0 )
 			hr = HRESULT_FROM_WIN32( GetLastError() );
 		*pIndex = 0;
-		return S_OK;
+		return hr;
 	}
 
 	IFACEMETHODIMP GetPriority( int* pIPriority ) override
